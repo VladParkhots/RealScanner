@@ -18,7 +18,7 @@ public class massive {
         Random rand = new Random();
 
         int n = scan.nextInt();
-        int [] mas = new int [n];
+        int [] mas = new int [n]; //9, 0-8
         int x;
         int count_eight = 0;
         int count_one =0;
@@ -27,7 +27,7 @@ public class massive {
 
         for (x=0;x<n;x++) {
             mas[x] = rand.nextInt(10);
-            System.out.print(mas[x] + " ");
+            System.out.print(mas[x] +" ");
 
             if (mas [x]>8){
                 count_eight++;
@@ -35,16 +35,16 @@ public class massive {
             if (mas [x]==1){
                 count_one++;
             }
-            if (mas [x]%2==0) {
+            if (mas [x]%2==0 && mas [x]!=0) {
                 even++;
             }
-            if ((mas [x]+20)%2!=0){
+            if (mas [x]%2!=0){
                 odd++;
             }
         }
         int sum = 0;
         for (int k:mas){
-            sum = sum+k;
+            sum = sum + k;
         }
 
         System.out.println();

@@ -25,7 +25,7 @@ public class Testmassive {
             }
             if (element%10==0){
                 amount_counter++;
-                genius += element;
+                genius =  genius + element;
             }
         }
         /*int summ_count = 0;
