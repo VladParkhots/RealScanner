@@ -8,6 +8,7 @@ public class Exercise4_4 {
 
         int bestResult = 0;
         int index = 0;
+        int now = 0;
 
 
         int [] mas = new int [100];
