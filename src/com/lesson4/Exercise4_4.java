@@ -8,11 +8,8 @@ public class Exercise4_4 {
 
         int bestResult = 0;
         int index = 0;
-        int now = 0;
-
 
         int [] mas = new int [100];
-
         for (int i= 0; i < mas.length; i++) {
             mas[i] = rand.nextInt(10000);
         }
@@ -39,7 +36,5 @@ public class Exercise4_4 {
         }
         System.out.println(bestResult);
         System.out.println(index);
-
-
     }
 }
