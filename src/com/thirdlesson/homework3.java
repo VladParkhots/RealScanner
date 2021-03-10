@@ -6,7 +6,7 @@ public class homework3 {
     public static void main(String [] args){
         Scanner scan = new Scanner(System.in);
 
-        /*while (true) {
+        while (true) {
             System.out.println("Введите город:");
             String s = scan.nextLine();
             if (s.equals("Стоп")) {
@@ -28,7 +28,7 @@ public class homework3 {
                 default:
                     System.out.println("Неизвестная страна");
             }
-        }*/ // City>Country
+        } // City>Country
         /*while (true){
 
             System.out.println("Введите делимое:");
@@ -52,7 +52,7 @@ public class homework3 {
             System.out.println("Результат: " +result);
         } while (y!=0);
         System.out.println("Деление на ноль невозможно");*/ // Деление do while
-        int counter = 0;
+        /*int counter = 0;
         while (counter < 5){
             counter++;
             double x = scan.nextDouble();
@@ -62,6 +62,6 @@ public class homework3 {
                 continue;
             }
             System.out.println(x / y);
-        }
+        }*/ // хзхзхзхзхзхз
     }
 }

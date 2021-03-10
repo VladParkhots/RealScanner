@@ -18,7 +18,7 @@ public class massive {
         Random rand = new Random();
 
         int n = scan.nextInt();
-        int [] mas = new int [n]; //9, 0-8
+        int [] mas = new int [n];
         int x;
         int count_eight = 0;
         int count_one =0;
